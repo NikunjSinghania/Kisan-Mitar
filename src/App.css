@@ -1,0 +1,169 @@
+nav{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+}
+nav span{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav span h1{
+  margin-left: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav a:active{
+  color: active;
+}
+.active{
+  color:green;
+}
+nav div{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+nav img{
+  height: 60%;
+  margin-left: 50px;
+  clip-path: circle(47% at 50% 50%);
+}
+
+.slideshow{
+  height:90vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slideshow img{
+  width: 100%;
+  object-fit: cover;
+}
+
+#homeContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#homeContent h1{
+  font-size: 5vh;
+  color: orange;
+}
+
+#homeContent p{
+  width: 80%;
+}
+
+#homeContent div{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#homeContent div span{
+  width: 20vw;
+}
+#homeContent div span img{
+  height: 70px;
+}
+#homeContent div span h3{
+  color: green;
+}
+
+#homeContent div span p{
+  color: grey;
+}
+
+#updates{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#updates h1{
+  font-size: 2.5vw;
+  color: orange;
+}
+
+#updatesContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+#updatesContainer span{
+  max-width: 30vw;
+}
+
+#updatesContainer span h3{
+  margin:0;
+  color: green;
+}
+
+
+#updatesContainer span h4{
+  margin:0;
+  font-weight: lighter;
+  color: grey;
+}
+
+
+
+.aboutContainer{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutContainer h1{
+  color: orange;
+  font-size: 3vw;
+}
+
+.aboutContainer p{ 
+  width: 90%;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+#mainHeading{
+  color: orange;
+  font-size: 2.5vw;
+  margin-left: 50px;
+}
+
+#mainUpdatesContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+#mainUpdatesContainer span{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#mainUpdatesContainer span h1{
+  margin: 0;
+  color: green;
+}
+
+#mainUpdatesContainer span h4{
+  margin: 0;
+  font-weight: normal;
+  color: orange;
+}
